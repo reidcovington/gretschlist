@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   #users
-  resources :users
+  resources :user
 
   #sessions
   get '/login' => 'sessions#new'
