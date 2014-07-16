@@ -1,0 +1,14 @@
+<div>
+  <%= form_for @user do |u| %>
+    <%= u.label :username %>
+    <%= u.text_field :username, placeholder:"Username" %><br>
+
+    <%= u.label :email %>
+    <%= u.text_field :email, placeholder:"Email" %><br>
+
+    <%= u.label :password %>
+    <%= u.text_field :password, type:"password", placeholder:"Password" %>
+
+    <%= u.submit  :value => "Submit" %>
+  <% end %>
+</div>
