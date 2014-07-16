@@ -1,14 +1,14 @@
 <div>
-  <%= form_for @user do |u| %>
-    <%= u.label :username %>
-    <%= u.text_field :username, placeholder:"Username" %><br>
+  <%= form_for @user do |form| %>
+    <%= form.label :username %>
+    <%= form.text_field :username, placeholder:"username" %><br>
 
-    <%= u.label :email %>
-    <%= u.text_field :email, placeholder:"Email" %><br>
+    <%= form.label :email %>
+    <%= form.text_field :email, placeholder:"Email" %><br>
 
-    <%= u.label :password %>
-    <%= u.text_field :password, type:"password", placeholder:"Password" %>
+    <%= form.label :password %>
+    <%= form.text_field :password, type:"password", placeholder:"Password" %>
 
-    <%= u.submit  :value => "Submit" %>
+    <%= form.submit  :value => "Submit" %>
   <% end %>
 </div>

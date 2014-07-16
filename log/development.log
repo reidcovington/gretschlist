@@ -719,3 +719,258 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-15 19:04:27
 
 Started GET "/assets/gretsch.jpg" for 127.0.0.1 at 2014-07-15 19:04:27 -0400
 
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 84ms (Views: 63.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/assets/gretsch.jpg" for 127.0.0.1 at 2014-07-15 21:25:38 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+Processing by CategoriesController#index as HTML
+  Rendered categories/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started GET "/assets/gretsch.jpg" for 127.0.0.1 at 2014-07-15 21:25:39 -0400
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-15 21:25:55 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XooVLR6LsvPDwsAJ+7Q/NMAJ2u/Vx7/T6K6Bo/jtmok=", "user"=>{"username"=>"ReidC", "email"=>"new@new.com", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "password", "updated_at", "username") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2014-07-16 01:34:00.720377"], ["email", "new@new.com"], ["password", "test"], ["updated_at", "2014-07-16 01:34:00.720377"], ["username", "ReidC"]]
+  [1m[35m (11.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 484838ms (ActiveRecord: 12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-15 21:34:00 -0400
+Processing by CategoriesController#index as HTML
+  Rendered categories/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-07-15 21:34:00 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-07-15 21:34:00 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-15 21:34:00 -0400
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-07-15 21:34:00 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-15 21:34:00 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+Processing by CategoriesController#index as HTML
+  Rendered categories/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/assets/gretsch.jpg" for 127.0.0.1 at 2014-07-15 21:34:58 -0400
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-07-15 21:44:13 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+     9:     <%= form.label :password %>
+    10:     <%= form.text_field :password, type:"password", placeholder:"Password" %>
+    11: 
+    12:     <%= u.submit  :value => "Submit" %>
+    13:   <% end %>
+    14: </div>
+  app/views/users/new.html.erb:12:in `block in _app_views_users_new_html_erb__2746191914345812678_70186975103060'
+  app/views/users/new.html.erb:2:in `_app_views_users_new_html_erb__2746191914345812678_70186975103060'
+
+
+  Rendered /Users/reidcovington/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/reidcovington/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/reidcovington/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+Processing by CategoriesController#index as HTML
+  Rendered categories/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/assets/gretsch.jpg" for 127.0.0.1 at 2014-07-15 21:44:14 -0400
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-15 21:44:22 -0400
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-15 21:44:32 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XooVLR6LsvPDwsAJ+7Q/NMAJ2u/Vx7/T6K6Bo/jtmok=", "user"=>{"username"=>"ReidCd", "email"=>"reidcovington@me.com", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "password", "updated_at", "username") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-07-16 01:44:44.812834"], ["email", "reidcovington@me.com"], ["password", "sdfdsf"], ["updated_at", "2014-07-16 01:44:44.812834"], ["username", "ReidCd"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 12792ms (ActiveRecord: 1.2ms)
